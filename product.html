@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="product.js">
+    <title>Fashion Point</title>
+</head>
+
+<body>
+    <div class="loader">
+
+    </div>
+    <header>
+        <div class="nav-logo">
+            <h1 class="logo">Fashion Point</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#footer-1">Contact</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </div>
+        <div class="nav-search">
+            <input class="search-bar" type="text" placeholder="Search your favorite...">
+            <i class="fa-solid fa-magnifying-glass" id="search-but"></i>
+        </div>
+        <button class="nav-login"><a href="#">Login</a>/<a href="#">Signup</a></button>
+        <button class="cart-button">
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping" id="cart"></i>
+                <p class="p-cart">Cart <span id="cart-count">0</span></p>
+            </div>
+        </button>
+
+    </header>
+    <section class="login" style="display:none;">
+        <div class="login-box">
+            <span class="close-btn">&times;</span>
+            <h2 class="login-title" id="form-title">Login</h2>
+
+            <div class="username">
+                <p class="user">Username:</p>
+                <input type="text" placeholder="Enter Email/username" class="log-inp" id="username">
+            </div>
+            <div class="password">
+                <p class="user">Password:</p>
+                <input type="password" placeholder="Enter Password" class="log-inp" id="password">
+            </div>
+
+            <div class="extra-options">
+                <label>
+                    <input type="checkbox" id="remember">
+                    Remember me
+                </label>
+                <a href="#" class="forgot-link">Forgot Password?</a>
+            </div>
+
+            <div class="log-b">
+                <button class="login-but" id="login-btn">Login</button>
+            </div>
+
+            <p class="switch-text">Don't have an account?
+                <a href="#" id="switch-to-signup">Signup</a>
+            </p>
+        </div>
+    </section>
+
+
+    <div class="img-slider">
+        <marquee>
+            <img src="img-slider.png" alt="img1">
+            <img src="img-slider1.png" alt="img1">
+            <img src="img-slider2.png" alt="img1">
+            <img src="img-slider3.png" alt="img1">
+            <img src="img-slider4.png" alt="img1">
+        </marquee>
+    </div>
+    <div class="denim-section">
+        <hr>
+        <h1 class="denim-head">Denim Jeans</h1>
+        <hr>
+    </div>
+    <div class="main">
+        <div class="container1">
+            <h1 class="h11">Details</h1>
+            <img src="pant.png" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container2">
+            <h1 class="h11">Details</h1>
+            <img src="pant2.png" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container3">
+            <h1 class="h11">Details</h1>
+            <img src="pant3.png" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container4">
+            <h1 class="h11">Details</h1>
+            <img src="pant4.png" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container5">
+            <h1 class="h11">Details</h1>
+            <img src="pant5.jpg" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container6">
+            <h1 class="h11">Details</h1>
+            <img src="pant6.jpg" alt="photo">
+            <h2 class="h22">Denim Jeans</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+    </div>
+    <div class="p-slid">
+        <div class="p-sliding">
+            <img src="fash-img.png" alt="fash-img">
+            <div class="p-slide-data">
+                <h1>Hello All..</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsam corporis doloribus beatae
+                    accusamus dolorum, sit blanditiis molestiae earum cumque aperiam labore dolorem eius nulla facilis
+                    atque odio officiis saepe quos harum nam praesentium minus! Repellendus rerum at ratione assumenda,
+                    porro amet, aspernatur quia dolorem atque possimus quisquam excepturi repellat aliquam natus commodi
+                    culpa, ipsam .</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="section-head">
+        <hr>
+        <h1>Denim Shirts</h1>
+        <hr>
+    </div>
+    <div class="main">
+        <div class="container1">
+            <h1 class="h11">Details</h1>
+            <img src="shirt1.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container2">
+            <h1 class="h11">Details</h1>
+            <img src="shirt2.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container3">
+            <h1 class="h11">Details</h1>
+            <img src="shirt3.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container4">
+            <h1 class="h11">Details</h1>
+            <img src="shirt4.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container5">
+            <h1 class="h11">Details</h1>
+            <img src="shirt5.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+        <div class="container6">
+            <h1 class="h11">Details</h1>
+            <img src="shirt6.png" alt="photo">
+            <h2 class="h22">Denim Shirt</h2>
+            <h3 class="h33">₹999</h3>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="add-cart">Add To Cart</button>
+        </div>
+    </div>
+
+
+
+    <div class="section-head">
+        <hr>
+        <h1>Traditional Wear</h1>
+        <hr>
+    </div>
+    <section class="all-items">
+        <div class="item1">
+            <div class="itemimg">
+                <img src="traditional1.png" alt="Glasses" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Kurthas</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="traditional2.png" alt="Watches" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Sherwanis</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="traditional3.png" alt="Smartwatches" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Dhothis&Shirts</a></h2>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="shop">
+        <div class="shop-p">
+            <h2>Dress To Impress</h2>
+            <h1>This Festive Season</h1>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+
+
+    <div class="section-head">
+        <hr>
+        <h1>Other Items</h1>
+        <hr>
+    </div>
+    <section class="all-items">
+        <div class="item1">
+            <div class="itemimg">
+                <img src="glasses.png" alt="Glasses" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Sun Glasses</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="watch.png" alt="Watches" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Analog Watches</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="smartwatch.png" alt="Smartwatches" width="150px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Smart Watches</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="chain.png" alt="Chains" width="170px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Chains</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="perfume.png" alt="Perfumes" width="170px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Perfumes</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="inners.png" alt="Inners" width="170px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">vests&Breifs</a></h2>
+            </div>
+        </div>
+        <div class="item1">
+            <div class="itemimg">
+                <img src="skincare.png" alt="Skin Care" width="170px">
+            </div>
+            <div class="itemname">
+                <h2><a href="#">Skin Care</a></h2>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-1" id="footer-1">
+            <div class="foot-1-1">
+                <h1>Fashion Point</h1>
+            </div>
+            <div class="foot-1-2">
+                <h3>Contact Us</h3>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Whatsapp</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Youtube</a></p>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="foot-2-1">
+                <p><a href="#">Conditions of Use & Sale</a></p>
+                <p><a href="#">Privacy Notice</a></p>
+                <p><a href="#">Interest-Based Ads</a></p>
+            </div>
+            <div class="foot-2-2">
+                <p>© 2024, Fashion Point.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const loginModal = document.querySelector(".login");
+            const loginBtn = document.querySelector(".nav-login");
+            const closeBtn = document.querySelector(".close-btn");
+            const switchToSignup = document.getElementById("switch-to-signup");
+            const formTitle = document.getElementById("form-title");
+            const logButton = document.getElementById("login-btn");
+
+            let isSignup = false;
+
+            // --- Function to switch to Signup ---
+            function showSignup() {
+                isSignup = true;
+                formTitle.textContent = "Signup";
+                logButton.textContent = "Signup";
+                switchToSignup.textContent = "Login";
+                switchToSignup.setAttribute("id", "switch-to-login");
+
+                // Dynamically add Email and Confirm Password fields
+                if (!document.getElementById("email")) {
+                    const emailDiv = document.createElement("div");
+                    emailDiv.classList.add("email");
+                    emailDiv.innerHTML = `
+                <p class="user">Email:</p>
+                <input type="email" placeholder="Enter your Email" class="log-inp" id="email">
+            `;
+
+                    const confirmDiv = document.createElement("div");
+                    confirmDiv.classList.add("confirm-password");
+                    confirmDiv.innerHTML = `
+                <p class="user">Confirm Password:</p>
+                <input type="password" placeholder="Re-enter Password" class="log-inp" id="confirm-password">
+            `;
+
+                    const passwordDiv = document.querySelector(".password");
+                    passwordDiv.insertAdjacentElement("afterend", confirmDiv);
+                    passwordDiv.insertAdjacentElement("afterend", emailDiv);
+                }
+            }
+
+            // --- Function to switch back to Login ---
+            function showLogin() {
+                isSignup = false;
+                formTitle.textContent = "Login";
+                logButton.textContent = "Login";
+                switchToSignup.textContent = "Signup";
+                switchToSignup.setAttribute("id", "switch-to-signup");
+
+                // Remove extra fields
+                document.querySelector(".email")?.remove();
+                document.querySelector(".confirm-password")?.remove();
+            }
+
+            // --- Open modal ---
+            if (loginBtn && loginModal) {
+                loginBtn.addEventListener("click", () => {
+                    loginModal.style.display = "flex";
+                    showLogin(); // Always open in login mode
+                });
+            }
+
+            // --- Close modal ---
+            if (closeBtn) {
+                closeBtn.addEventListener("click", () => {
+                    loginModal.style.display = "none";
+                    showLogin(); // Reset to login mode
+                });
+            }
+
+            // --- Toggle between login and signup ---
+            document.addEventListener("click", (e) => {
+                if (e.target.id === "switch-to-signup") {
+                    e.preventDefault();
+                    showSignup();
+                } else if (e.target.id === "switch-to-login") {
+                    e.preventDefault();
+                    showLogin();
+                }
+            });
+
+            // --- Close modal on outside click ---
+            window.addEventListener("click", (e) => {
+                if (e.target === loginModal) {
+                    loginModal.style.display = "none";
+                    showLogin(); // Reset mode when closed
+                }
+            });
+
+            // --- Cart Functionality ---
+            const cartCount = document.getElementById("cart-count");
+            let cartItems = 0;
+
+            document.querySelectorAll(".add-cart").forEach(button => {
+                button.addEventListener("click", () => {
+                    cartItems++;
+                    if (cartCount) {
+                        cartCount.textContent = cartItems;
+                    }
+                    alert("Item added to cart!");
+                });
+            });
+
+
+            // --- Search Functionality (optional, if you add data-name to products) ---
+            const searchBar = document.querySelector(".search-bar");
+            const products = document.querySelectorAll(".container1, .container2, .container3, .container4, .container5, .container6");
+
+            if (searchBar) {
+                searchBar.addEventListener("input", e => {
+                    const query = e.target.value.toLowerCase();
+                    products.forEach(product => {
+                        const name = product.innerText.toLowerCase();
+                        product.style.display = name.includes(query) ? "block" : "none";
+                    });
+                });
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>
